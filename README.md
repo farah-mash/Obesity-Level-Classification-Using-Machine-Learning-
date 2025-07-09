@@ -10,7 +10,7 @@ Number of Features: 16 input features + 1 target variable (NObeyesdad)
 Target Classes:
 Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, Obesity Type III.
 
-### Note:
+### 🔍Note:
 77% of the dataset was synthetically generated using the SMOTE algorithm via the Weka tool.
 The remaining 23% was collected from real users via a web-based survey.
 
@@ -32,7 +32,7 @@ Decision Tree	0.935	0.935	0.935	0.935
 Linear SVM	0.751	0.740	0.751	0.740
 Gaussian Naive Bayes	0.609	0.620	0.609	0.557
 
-###🔍 Note:
+### 🔍 Note:
 The Random Forest Classifier achieved the best results in terms of accuracy and f1-score, making it the most effective model for this multi-class classification task.
 The Decision Tree also showed strong performance and interpretability.
 SVM and Naive Bayes performed relatively worse, possibly due to class imbalance and feature interactions.
